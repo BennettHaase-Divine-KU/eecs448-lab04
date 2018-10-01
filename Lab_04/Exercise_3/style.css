@@ -1,0 +1,25 @@
+table.border, th.border, td.border
+{
+	text-align: left;
+	border: 1px solid black;
+}
+body
+{
+	background-color: lightGray;
+}
+tr.top
+{
+	background-color: lightBlue;
+}
+tr.total
+{
+	background-color: lightYellow;
+}
+tr.shipping
+{
+	background-color: Violet;
+}
+tr.middle
+{
+	background-color: YellowGreen;
+}

@@ -1,0 +1,40 @@
+<html>
+<head>
+<script type="text/javascript"
+                 src="formChecker.js">
+         </script>
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<h1><b>Welcome to the Word Shop.</b></h1>
+	
+	<form id="Store" action="customerBackend.php" onsubmit="return formCheck()" method="post">
+	<table style="text-align: left;">
+	<tr>
+	<th>Name:</th><th><input type = "text" name="name"></th>
+	</tr>
+	<tr>
+	<th>Password:</th><th><input type="password" name="pass"></th>
+	</tr>
+	<tr>
+	<th>Consonants($1)</th><th><input type = "number" name="Item1"></th>
+	</tr>
+	<tr>
+	<th>Vowels($5)</th><th><input type = "number" name="Item2"></th>
+	<tr>
+	<th>Special Characters($10,000)</th><th><input type = "number" name="Item3"></th>
+	</tr>
+	</table>
+	<br>
+	Shipping:<br>
+	<input type="radio" name="Ship" value="7 Day Free">7 Day free Shipping<br>
+	<input type="radio" name="Ship" value="3 Day Express">3 Day Shipping ($5.00)<br>
+	<input type="radio" name="Ship" value="Overnight">Next Day Shipping ($50.00)<br>
+	<br>
+	<input type="submit" value="Submit">
+	<button type="reset" value="Reset">Reset</button>
+	</form>
+	
+</body>
+</html>
